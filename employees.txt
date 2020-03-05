@@ -1,0 +1,6 @@
+003345, Pauline, Sampson, Admin, 14.96
+012345, Mike, King, Manager, 20.47
+123456, Pete, Smith, Accountant, 25.53
+345678, Mary, Jones, Accountant, 32.53
+456789, Mary, King, Manager, 18.35
+777999, Caroline, Baxter, Nurse, 27.45

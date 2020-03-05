@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--	Author: Mike O'Kane
+		Date:	August, 2017
+		File:	modify1.html
+		Purpose: Chapter 15 Exercise
+		
+		Modify1.html asks the user for an employee ID. Modify1.php receives the ID,
+		creates an Employee instance, looks up the employee data using the ID, 
+		and displays the weekly pay for the employee.
+		
+		Modify this application so that Modify1.html asks for three ID's, and Modify1.php
+		receives the three ID's and uses three Employee instances to obtain and display the 
+		pay for all three.
+			
+		Here are three valid ID's to test this: 003345, 012345, 123456
+-->
+
+<html>
+<head>
+	<title>Modify1.html</title>
+	<link rel ="stylesheet" type="text/css" href="sample.css"  />
+</head>
+<body>
+	<h1>Weekly Pay report</h1>
+	<form action="modify1.php" method="post">
+		<table>
+			<tr><td>Employee ID #1</td><td><input type="text" name="id1"></td></tr>
+			<tr><td>Employee ID #2</td><td><input type="text" name="id2"></td></tr>
+			<tr><td>Employee ID #3</td><td><input type="text" name="id3"></td></tr>
+		</table>
+		<p><input type = "submit" value = "Submit">
+	</form>
+</body>
+</html>
